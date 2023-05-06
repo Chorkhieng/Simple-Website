@@ -5,12 +5,12 @@ body {
   }
   
   header {
-    background-color: #6f9d72;
+    background-color: #212622;
     padding: 1rem;
   }
   
   header h1 {
-    color: rgb(91, 19, 19);
+    color: rgb(55, 139, 131);
     margin: 0;
   }
   
@@ -19,7 +19,7 @@ body {
   }
   
   button {
-    background-color: #114943;
+    background-color: #08181f;
     border: none;
     color: rgb(210, 229, 217);
     padding: 0.5rem 1rem;
@@ -33,9 +33,9 @@ body {
   
 
   .moving-object {
-    width: 50px;
+    width: 10px;
     height: 64px;
-    background-color: #295429;
+    background-color: #1794a0;
     position: fixed; /* Change position to 'fixed' */
     top: 0; /* Keep the object at the very top of the page */
     z-index: 1000; /* Ensure the object is above other elements */
@@ -53,7 +53,7 @@ body {
   }
 
   .external-link-button {
-    background-color: #4CAF50;
+    background-color: #718f72;
     border: none;
     color: rgb(195, 187, 173);
     padding: 0.5rem 1rem;
@@ -67,6 +67,6 @@ body {
   }
   
   .external-link-button:hover {
-    background-color: #45a049;
+    background-color: #3a453b;
   }
   

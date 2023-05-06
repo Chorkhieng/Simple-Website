@@ -1,5 +1,5 @@
-document.getElementById("greetButton").addEventListener("click", function() {
-    document.getElementById("greetingText").innerHTML = "Hello, welcome to my simple website!"
+document.getElementById("aboutMeButton").addEventListener("click", function() {
+    document.getElementById("aboutMeText").innerHTML = "Hello, welcome to my simple website!"
 });
   
 
