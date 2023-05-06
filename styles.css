@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6f9d72;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    color: rgb(91, 19, 19);
+    margin: 0;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  button {
+    background-color: #114943;
+    border: none;
+    color: rgb(210, 229, 217);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+  
+
+  .moving-object {
+    width: 50px;
+    height: 64px;
+    background-color: #295429;
+    position: fixed; /* Change position to 'fixed' */
+    top: 0; /* Keep the object at the very top of the page */
+    z-index: 1000; /* Ensure the object is above other elements */
+    animation: moveObject 5s linear infinite;
+  }
+  
+  
+  @keyframes moveObject {
+    0%, 100% {
+      left: 0;
+    }
+    25% {
+      left: 100%;
+    }
+  }
+
+  .external-link-button {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(195, 187, 173);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .external-link-button:hover {
+    background-color: #45a049;
+  }
+  
