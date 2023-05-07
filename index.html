@@ -1,24 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Website</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Site</title>
 </head>
 <body>
-  <header>
-    <h1>Chork is the Fork</h1>
-  </header>
-  <main>
-    <div class="moving-object"></div>
-    <p>Welcome to my personal Website!</p>
-    <p>Want to know more about me? Click on the button below:</p>
-    <button id="aboutMeButton">About Me:</button>
-    <p id="aboutMeText"></p>
-    <a href="https://github.com/Chorkhieng" target="_blank" class="external-link-button">Follow Me on GitHub</a>
-    <a href="https://www.linkedin.com/in/chork-hieng-ab711012a/" target="_blank" class="external-link-button">Follow Me on LinkedIn</a>
-  </main>
-  <script src="scripts.js"></script>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo">NEXT</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links">Tech</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Products</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/" class="button">Sing Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 </body>
 </html>
