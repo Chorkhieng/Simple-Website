@@ -6,12 +6,6 @@
 
 My Simple Website is a minimalistic, user-friendly web page designed to showcase my skills in HTML, CSS, and JavaScript. The site features a clean and modern design, with a visually appealing color scheme.
 
-## Features
-
-- **Header:** The header contains the website title, welcoming visitors and setting the tone for the site.
-- **Buttons:** Two buttons link to my GitHub profile and media website, allowing users to explore my work further.
-- **Moving Object:** A moving object animates across the top of the page, demonstrating my ability to create CSS animations and add interactivity to a website.
-
 ## Technologies Used
 
 - **HTML:** The website's structure and content are defined using HTML, ensuring it is accessible and easy to maintain.
