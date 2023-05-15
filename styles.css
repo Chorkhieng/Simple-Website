@@ -592,23 +592,23 @@
 
 /* CSS styles for the section */
 .about-me {
-  margin: 20px;
+  margin: 0;
   padding: 20px;
   border-radius: 5px;
-  background-color: #7b5a99;
-  color: #000;
+  background-color: #3f7dbf;
+  color: hsl(281, 51%, 36%);
 }
 
 .about-me h2 {
-  color: #2e2c2c;
+  color: #400fa9;
   font-size: 24px;
   margin-top: 0;
 }
 
 .about-me p {
-  color: #100808;
+  color: #1e0a41;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 
