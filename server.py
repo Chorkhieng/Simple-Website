@@ -21,11 +21,9 @@ def server(url):
     elif path == "/courses":
         return open("links/courses.html").read(), "text/html"
     elif path == "/angkor":
-        return open("images/angkor.jpg", "rb").read(), "image/jpeg"
+        return open("images/angkor.jpeg", "rb").read(), "image/jpeg"
     elif path == "/beach":
         return open("images/beach.jpg", "rb").read(), "image/jpeg"
-    elif path == "/maker_launch":
-        return open("images/maker_launch.svg").read(), "image/svg+xml"
     elif path == "/sunset":
         return open("images/sunset.jpg", "rb").read(), "image/jpeg"
     elif path == "/panda":
